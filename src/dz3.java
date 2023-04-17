@@ -177,7 +177,7 @@ public class dz3 {
                     //leap year
                     if (year % 4 == 0) {
                         if (day.equals("30") || day.equals("31")) {
-                            throw new WrongDataTypeException("В феврале нет 30 и 31 числа");
+                            throw new WrongDataTypeException("В феврале нет 30 и 31 чисел");
                         }
                     } else {
 
